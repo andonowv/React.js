@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+}
+
+.app__header{
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app{
+  background-color: #fafafa;
+  height: 100%;
+}
+
+.app__headerImage{
+  width: 150px;
+  object-fit: contain;
+}
+.app__signup{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.app_headerImage{
+  width: 120px;
+  padding-left: 140px;
+}
+
+.app__posts{
+  padding: 20px;
+  border-radius: 5px;
+}
+.right_side__posts{
+  padding-left: 50px;
+}
+.posts{
+  padding: 30px;
+  justify-content: center;
+}
+.headerImage{
+  width: 250px;
+  align-self: center;
+}
+.app__facebook{
+  width: 300px;
+  align-self: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.app__or{
+  padding-bottom: 25px;
+  font-weight: normal;
+}
+.app_register_caption{
+  color: grey;
+}
+
+.app__username{
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  
+}
+.app_email{
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  
+}
+.app_pass{
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.app_name{
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.text_bottom-signup{
+  font-weight: normal;
+  font-size: 15px;
+}
+.app_button_foward{
+  font-size: 50px;
+}
+
+.app_email{
+  padding: 10px;
+}
+
+.app_pass{
+  padding: 10px;
+}
+
+.app_headerImage_signIn{
+  align-self: center;
+  margin-bottom: 25px;
+  width: 250px;
+}
+.app_signInButton{
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .right_side__posts{
+    display: none;
+  }
+}

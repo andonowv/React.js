@@ -1,0 +1,31 @@
+.side_post{
+    width: 350PX;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.sidePost__header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.sidePost__image{
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;;
+}
+.sidePost__text{
+    padding-left: 10px;
+}
+.sidepost__caption{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.caption{
+    padding: 15px;
+}
+.sidePost__username{
+    padding-left: 10px;
+}
